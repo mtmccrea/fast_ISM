@@ -70,6 +70,7 @@ for ii=1:size(VarList,1),
        end
    end
 end
+EvalStr = join(EvalStr);
 
 if NumSetVars~=length(varargin)/2,
    error('Some of the input arguments could not be set properly (check syntax)')
